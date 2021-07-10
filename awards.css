@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Helvetica;;
+}
+.header {
+    background-color: cornflowerblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    align-content: center;
+    height: 550px;
+    background-color: snow;
+    display: flex;
+    padding-left: 250px;
+}
+
+.box {
+    background-color: purple;
+    display: flex;
+    height: 200px;
+   
+}
+.box1{
+    background-color: pink;
+    height: 200px;
+
+}
+.box2 {
+    background-color: rgb(252, 222, 227);
+    height: 200px;
+}
+.box3 {
+    background-color: pink;
+    height: 200px;
+}
+.box {
+    display: flex;
+}
+.box1,.box2,.box3 {
+    flex: 1;
+}
+.bar {
+    background-color: pink;
+    height: 2px;
+}
+
+  .pbox1,.pbox2,.pbox3 {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+.pbox1-2,.pbox2-2,.pbox3-2 {
+    font-family: Helvetica;
+    font-size: 10px;
+    color: slategrey;
+}
+.box1,.box2,.box3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.menu ul {
+    list-style-type: none;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.menu li{
+    display: inline-block;
+    height: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    height: 60px;
+}
+.menu a:hover{
+    background: crimson;
+
+}
+.menu {
+    padding: 10px;
+}
+.mySlides {
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.tiffany {
+    font-size: 40px;
+    color: pink;
+    padding-top: 250px;
+    padding-left: 400px;
+    margin: 0;
+}
+.birth {
+    font-size: 40px;
+    color: slategray;
+    margin: 0;
+    align-self: flex-end;
+}
+.singer {
+    font-size: 14px;
+    color: slategray;
+    padding-left: 310px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.tif801 {
+    display: flex;
+}
+.tiffany {
+    flex: 5;
+}
+.birth {
+    flex: 1;
+}
+.tr1 {background-color: pink;}
+.tr2 {background-color: snow;}
+.tr1,.tr2 {
+    padding: 10px;
+}
+table {
+    border-spacing: 0px;
+}
+.tr1,.tr2 {
+    text-align: left;
+    color: slategray;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  th {
+    text-align: left;
+    color: slategray;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+  }
+  td {
+      padding: 15px;
+  }
+ 
+ 

@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Helvetica;
+}
+.header {
+    background-color: cornflowerblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    align-content: center;
+    height: 550px;
+    background-color: snow;
+    display: flex;
+}
+.bannerleftup {
+    background-color: white;
+    height: 550px;
+}
+.bannerright {
+    background-color: snow;
+    height: 550px;
+}
+.bannerleft,.bannerright {
+    flex: 1;
+}
+
+.box {
+    background-color: purple;
+    display: flex;
+    height: 200px;
+   
+}
+.box1{
+    background-color: pink;
+    height: 200px;
+
+}
+.box2 {
+    background-color: rgb(252, 222, 227);
+    height: 200px;
+}
+.box3 {
+    background-color: pink;
+    height: 200px;
+}
+.box {
+    display: flex;
+}
+.box1,.box2,.box3 {
+    flex: 1;
+}
+.bar {
+    background-color: pink;
+    height: 2px;
+}
+
+  .pbox1,.pbox2,.pbox3 {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+.pbox1-2,.pbox2-2,.pbox3-2 {
+    font-family: Helvetica;
+    font-size: 10px;
+    color: slategrey;
+}
+.box1,.box2,.box3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.menu ul {
+    list-style-type: none;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.menu li{
+    display: inline-block;
+    height: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    height: 60px;
+}
+.menu a:hover {
+    background: crimson;
+
+}
+
+.menu {
+    padding: 10px;
+}
+.mySlides {
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.tiffany {
+    font-size: 40px;
+    color: pink;
+    padding-top: 250px;
+    padding-left: 400px;
+    margin: 0;
+}
+.birth {
+    font-size: 40px;
+    color: slategray;
+    margin: 0;
+    align-self: flex-end;
+}
+.singer {
+    font-size: 14px;
+    color: slategray;
+    padding-left: 310px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.tif801 {
+    display: flex;
+}
+.tiffany {
+    flex: 5;
+}
+.birth {
+    flex: 1;
+}
+.button1 {
+    background-color: pink;
+    color:cornflowerblue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+    right: 0%;
+  }
+  .button2 {
+    background-color: pink;
+    color:cornflowerblue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .container .psw{
+      color: slategray;
+      width: 100%;
+      font-size: 10px;
+  }
+  button:hover {
+    opacity: 0.85;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /* Modal Content/Box */
+.modal-content {
+    background-color:rgb(253, 223, 228);
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 25%; /* Could be more or less, depending on screen size */
+    align-content: center;
+    height: fit-content;
+}
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  img.avatar {
+    width: 65%;
+  }
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 35px 0 12px 0;
+    position: relative;
+  }
+  .container {
+      padding: 10px;
+  }
+  .close {
+    position: fixed;
+    color: slategray;
+    font-size: 20px;
+    font-weight: bold;
+    right: 38%;
+  }
+  b {
+      font-size: 14px;
+      color: cornflowerblue;
+      font-weight: normal;
+  }
+  .close:hover,
+.close:focus {
+  color:cornflowerblue;
+  cursor: pointer;
+}

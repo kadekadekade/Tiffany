@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tiffanystyle.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFzwKxNLg-0GzYXJkSCUL7y4MvaplhDy10ZQ&usqp=CAU"
+        alt="youngone"
+        height="40"
+        width="auto"
+      />
+      <div class="menu"><ul>
+        <li><a href="http://127.0.0.1:5500/tiffany.html">HOME</a>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#about">MUSIC</a></li>
+        <li><a href="http://127.0.0.1:5500/awards.html">AWARDS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul></div>
+      <button class="button1" onclick="document.getElementById('id01').style.display='flex'" style="width:auto;">Login</button>
+      <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <div class="imgcontainer">
+            
+            <img src="https://thumbs.gfycat.com/LivelyEmbellishedBarbet-max-1mb.gif" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>YoungOne's Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>YoungOne's Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button class="button2" type="submit">Login</button>
+            
+          </div>
+      
+          <div class="container" >
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    
+    </div>
+    
+    <div class="bar"></div>
+    <div class="banner">
+    <div class="bannerleft">
+        <div class="tif801">
+        <p class="tiffany">Tiffany   Young</p>
+        <p class="birth">801</p></div>
+        <p class="singer">American singer and member of No.1 girl group Girls' Generation</p></div>
+        <div class="bannerright">
+        <div class="slide" style="max-width:500px">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSU4lXoAI0FZX?format=jpg&name=large" style="width:50%">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSVGjXIAEBLS-?format=jpg&name=large" style="width:50%">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSVXVXMAIdnYI?format=jpg&name=large" style="width:50%">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSUnIWQAA55kS?format=jpg&name=large" style="width:50%">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSUPkXMAIfguh?format=jpg&name=large" style="width:50%">
+            <img class="mySlides" src="https://pbs.twimg.com/media/E1FSUBJXEAEm3Ot?format=jpg&name=large" style="width:50%">
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+        </div></div>
+    <div class="box">
+      <div class="box1">
+        <img
+          src="https://image.flaticon.com/icons/png/512/3442/3442511.png?fbclid=IwAR3KbhOCWNxcOTm5UViJj-0crUI5EjMmGLsJ2skiMce1Ae-vMgGFuf4Vphk"
+          alt="background"
+          height="50"
+          width="auto"
+        />
+        <p class="pbox1">STEPHANIE YOUNG HWANG</p>
+        <p class="pbox1-2">
+          (August 1, 1989)</br> 
+          known professionally as Tiffany or Tiffany Young</br>
+          Born and raised in California
+        </p>
+      </div>
+      <div class="box2">
+        <img
+        src="https://image.flaticon.com/icons/png/512/1039/1039360.png"
+        alt="train"
+        height="50"
+        width="auto"
+      />
+        <p class="pbox2">LIFE AND CAREER</p>
+        <p class="pbox2-2">
+          1989–2012: Early life and career beginnings</br>  
+        2012–2017: Girls’ Generation TTS, solo debut and controversy</br>  	
+        2017–present: Departure from SM Entertainment and solo career
+        </p>
+      </div>
+      <div class="box3">
+        <img
+        src="https://image.flaticon.com/icons/png/512/1039/1039327.png"
+        alt="concert"
+        height="50"
+        width="auto"
+      />
+        <p class="pbox3">CONCERTS</p>
+        <p class="pbox3-2">
+            The Agit: Tiffany's Weekend (2016)</br>
+            Lips On Lips North American Mini Showcase Tour (2019)</br> 
+            Open Hearts Eve (2019)</br> 
+            Magnetic Moon North American Tour (2019)</br> 
+            Open Hearts Eve Part Two (2020)
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

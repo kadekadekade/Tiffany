@@ -1,0 +1,17 @@
+h1 , h2 , h3 {
+    color: blueviolet;
+}
+#header4 {
+    color: cadetblue;
+}
+
+.box .his {
+    color: darkgreen;
+}
+.box .history {
+
+    color: darkseagreen;
+}
+.history{
+    color: crimson;
+}
